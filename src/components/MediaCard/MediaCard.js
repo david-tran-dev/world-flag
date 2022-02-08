@@ -17,11 +17,11 @@ function MediaCard({ country }) {
           image={country.flag}
           alt={country.name}
         />
-        <CardContent className="cardContent">
+        <CardContent className="card-content">
           <Typography gutterBottom variant="h7" component="div">
             {country.name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" className="card-body">
             Capital: {country.capital}<br />
             Region: {country.region}<br />
             Population: {numberFormat(country.population)}<br />

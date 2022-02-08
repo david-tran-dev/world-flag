@@ -10,7 +10,7 @@
 	}
 
 
-	.cardContent {
+	.card-content {
 		position: absolute;
 		top: 0;
 		opacity: 0;
@@ -23,14 +23,12 @@
 	
 	&:hover {
 		transform: scale(1.1);
-		cursor: pointer;
 		
-		.cardContent {
+		.card-content {
 			opacity: 1;
 		}
-		
-		
-		.css-r40f8v-MuiTypography-root {
+				
+		.card-body {
 			color: white;
 		}
 	}
