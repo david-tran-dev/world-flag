@@ -1,0 +1,52 @@
+.card {
+	width: 200px;
+	position: relative;
+	margin: 0.5rem;
+	transition: transform 0.3s;
+	color: white;
+	
+	img {
+		object-fit: cover;
+	}
+
+
+	.cardContent {
+		position: absolute;
+		top: 0;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		transition: 0.2s;
+		color: white;
+	}
+	
+	
+	&:hover {
+		transform: scale(1.1);
+		cursor: pointer;
+		
+		.cardContent {
+			opacity: 1;
+		}
+		
+		
+		.css-r40f8v-MuiTypography-root {
+			color: white;
+		}
+	}
+	
+		
+	&::before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: 0.2s;
+	}
+	
+	&:hover::before {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+}
