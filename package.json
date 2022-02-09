@@ -1,5 +1,6 @@
 {
   "name": "world-flag",
+  "homepage": "https://david-tran-dev.github.io/world-flag/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
