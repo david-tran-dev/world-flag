@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Project
+
+It is a project within the framework of learning the notions seen in training.
+
+## Notions
+
+This project was created with React as part of learning the following points:
+- React Hooks useState, useEffect, useNavigate
+- Setting up routes with React Router v6
+- Use of the Material UI library
+- Use of the SASS preprocessor for the custom style
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
